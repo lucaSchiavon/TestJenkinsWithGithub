@@ -14,7 +14,7 @@ namespace TestJenkinsEFPipelines
             HelloWorldDTO helloWorldDto = new HelloWorldDTO()
             {
                 Message = "Hello world",
-                Other = "altro contenuto xxx ggg fff"
+                Other = "altro contenuto xxx ggg fff yyy"
         };
             string json = JsonConvert.SerializeObject(helloWorldDto, Formatting.Indented);
             return json;
