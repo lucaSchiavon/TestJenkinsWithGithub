@@ -9,8 +9,8 @@ pipeline {
     stages {
 	stage('read variables'){
 		steps{
-			echo "${WORKSP}"
-			echo "${PROJNAME}"
+			echo WORKSP
+			echo PROJNAME
 		}
 	}
         stage('Build') {
