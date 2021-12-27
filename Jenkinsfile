@@ -2,8 +2,8 @@ pipeline {
     agent any
 	
 	environment {
-		WORKSP='env.workspace'
-		PROJNAME='env.PROJECT_NAME'
+		WORKSP="${workspace}"
+		PROJNAME="${env.PROJECT_NAME}"
 	}
 
     stages {
